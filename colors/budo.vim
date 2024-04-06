@@ -16,23 +16,23 @@ if exists("syntax_on")
   syntax reset
 endif
 
-let colors_name = "buru"
+let colors_name = "budo"
 
 " Vim >= 7.0 specific colors
 if version >= 700
-  hi CursorLine    guibg=#0f1015 ctermbg=234 cterm=NONE
-  hi CursorColumn  guibg=#0f1015 ctermbg=234
-  hi MatchParen    guifg=#d0ffc0 guibg=#0f1015 gui=bold ctermfg=157 ctermbg=237 cterm=bold
-  hi Pmenu 		   guifg=#ffffff guibg=#0f1015 ctermfg=255 ctermbg=238
+  hi CursorLine    guibg=#0f1014 ctermbg=234 cterm=NONE
+  hi CursorColumn  guibg=#0f1014 ctermbg=234
+  hi MatchParen    guifg=#d0ffc0 guibg=#0f1014 gui=bold ctermfg=157 ctermbg=237 cterm=bold
+  hi Pmenu 		   guifg=#ffffff guibg=#0f1014 ctermfg=255 ctermbg=238
   hi PmenuSel 	   guifg=#000000 guibg=#b1d631 ctermfg=0 ctermbg=148
 endif
 
 " General colors
 hi Cursor 		   guifg=NONE    guibg=#626262 gui=none ctermbg=241
-hi CursorLineNR  guifg=#cfd1da    guibg=#7e8aa2 gui=none ctermbg=241
-hi Normal 		   guifg=#cecece guibg=#0f1015 gui=none ctermfg=253 ctermbg=234
-hi NonText 		   guifg=#808080 guibg=#0f1015 gui=none ctermfg=244 ctermbg=235
-hi LineNr 		   guifg=#303030 guibg=#0f1015 gui=none ctermfg=244 ctermbg=232
+hi CursorLineNR  guifg=#131313    guibg=#7e8aa2 gui=none ctermbg=241
+hi Normal 		   guifg=#cecece guibg=#0f1014 gui=none ctermfg=253 ctermbg=234
+hi NonText 		   guifg=#808080 guibg=#0f1014 gui=none ctermfg=244 ctermbg=235
+hi LineNr 		   guifg=#303030 guibg=#0f1014 gui=none ctermfg=244 ctermbg=232
 hi StatusLine 	   guifg=#d3d3d5 guibg=#303030 gui=none ctermfg=253 ctermbg=238
 hi StatusLineNC    guifg=#939395 guibg=#303030 gui=none ctermfg=246 ctermbg=238
 hi VertSplit 	   guifg=#444444 guibg=#303030 gui=none ctermfg=238 ctermbg=238
@@ -40,28 +40,28 @@ hi Folded 		   guibg=#384048 guifg=#a0a8b0 gui=none ctermbg=4 ctermfg=248
 hi Title		   guifg=#f6f3e8 guibg=NONE	gui=bold ctermfg=254 cterm=bold
 hi Visual		   guifg=#faf4c6 guibg=#3c414c gui=none ctermfg=254 ctermbg=4
 hi SpecialKey	   guifg=#808080 guibg=#343434 gui=none ctermfg=244 ctermbg=236
-hi SignColumn    guibg=#0f1015
+hi SignColumn    guibg=#0f1014
 
-hi DiffAdd  guifg=#b1d633 guibg=#0f1015 ctermfg=White ctermbg=Black
-hi DiffChange  guifg=#ffa037 guibg=#0f1015 ctermfg=White ctermbg=Black
-hi DiffDelete  guifg=#f16a75 guibg=#0f1015 ctermfg=White ctermbg=Black
-hi DiffText  guifg=#cecece guibg=#0f1015 ctermfg=White ctermbg=Black
+hi DiffAdd  guifg=#b1d633 guibg=#0f1014 ctermfg=White ctermbg=Black
+hi DiffChange  guifg=#ffa037 guibg=#0f1014 ctermfg=White ctermbg=Black
+hi DiffDelete  guifg=#f16a75 guibg=#0f1014 ctermfg=White ctermbg=Black
+hi DiffText  guifg=#cecece guibg=#0f1014 ctermfg=White ctermbg=Black
 
 " Syntax highlighting
 hi Comment 		   guifg=#3f3f3f gui=italic ctermfg=244
 hi Todo 		   guifg=#8f8f8f gui=none ctermfg=245
-hi Boolean         guifg=#b1d631 gui=none ctermfg=148
+hi Boolean         guifg=#ffbb88 gui=none ctermfg=148
 hi String 		   guifg=#cfd1da gui=none ctermfg=148
 hi Identifier 	   guifg=#7e8aa2 gui=none ctermfg=148
-hi Function 	   guifg=#8eb6f5 gui=none ctermfg=255
+hi Function 	   guifg=#c58fff gui=none ctermfg=255
 hi Type 		   guifg=#7e8aa2 gui=none ctermfg=103
-hi Statement 	   guifg=#8eb6f5 gui=none ctermfg=103
+hi Statement 	   guifg=#c58fff gui=none ctermfg=103
 hi Keyword		   guifg=#7e8aa2 gui=none ctermfg=208
 hi Constant 	   guifg=#cfd1da gui=none  ctermfg=208
 hi Number		   guifg=#cfd1da gui=none ctermfg=208
 hi Special		   guifg=#7e8aa2 gui=none ctermfg=208
 hi PreProc 		   guifg=#7e8aa2 gui=none ctermfg=230
-hi Todo            guifg=#6bb6fa guibg=#0f1015 gui=none
+hi Todo            guifg=#b1d631 guibg=#0f1014 gui=none
 
 " Code-specific colors
 hi pythonImport    guifg=#7e8aa2 gui=none ctermfg=255
