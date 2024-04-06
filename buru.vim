@@ -16,7 +16,7 @@ if exists("syntax_on")
   syntax reset
 endif
 
-let colors_name = "budo"
+let colors_name = "buru"
 
 " Vim >= 7.0 specific colors
 if version >= 700
@@ -29,6 +29,7 @@ endif
 
 " General colors
 hi Cursor 		   guifg=NONE    guibg=#626262 gui=none ctermbg=241
+hi CursorLineNR  guifg=#cecece    guibg=#8eb6f5 gui=none ctermbg=241
 hi Normal 		   guifg=#cecece guibg=#0f1015 gui=none ctermfg=253 ctermbg=234
 hi NonText 		   guifg=#808080 guibg=#0f1015 gui=none ctermfg=244 ctermbg=235
 hi LineNr 		   guifg=#303030 guibg=#0f1015 gui=none ctermfg=244 ctermbg=232
@@ -40,6 +41,8 @@ hi Title		   guifg=#f6f3e8 guibg=NONE	gui=bold ctermfg=254 cterm=bold
 hi Visual		   guifg=#faf4c6 guibg=#3c414c gui=none ctermfg=254 ctermbg=4
 hi SpecialKey	   guifg=#808080 guibg=#343434 gui=none ctermfg=244 ctermbg=236
 hi SignColumn    guibg=#0f1015
+
+hi DiffAdd  guifg=#cecece guibg=#0f1015 ctermfg=White ctermbg=Black
 
 " Syntax highlighting
 hi Comment 		   guifg=#3f3f3f gui=italic ctermfg=244
