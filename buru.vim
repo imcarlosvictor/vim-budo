@@ -42,7 +42,10 @@ hi Visual		   guifg=#faf4c6 guibg=#3c414c gui=none ctermfg=254 ctermbg=4
 hi SpecialKey	   guifg=#808080 guibg=#343434 gui=none ctermfg=244 ctermbg=236
 hi SignColumn    guibg=#0f1015
 
-hi DiffAdd  guifg=#cecece guibg=#0f1015 ctermfg=White ctermbg=Black
+hi DiffAdd  guifg=#b1d633 guibg=#0f1015 ctermfg=White ctermbg=Black
+hi DiffChange  guifg=#ffa037 guibg=#0f1015 ctermfg=White ctermbg=Black
+hi DiffDelete  guifg=#f16a75 guibg=#0f1015 ctermfg=White ctermbg=Black
+hi DiffText  guifg=#cecece guibg=#0f1015 ctermfg=White ctermbg=Black
 
 " Syntax highlighting
 hi Comment 		   guifg=#3f3f3f gui=italic ctermfg=244
