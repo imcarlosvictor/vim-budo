@@ -29,7 +29,7 @@ endif
 
 " General colors
 hi Cursor 		   guifg=NONE    guibg=#626262 gui=none ctermbg=241
-hi CursorLineNR  guifg=#131313    guibg=#7e8aa2 gui=none ctermbg=241
+hi CursorLineNR  guifg=#131313    guibg=#cfd1da gui=none cterm=none
 hi Normal 		   guifg=#cecece guibg=#0f1014 gui=none ctermfg=253 ctermbg=234
 hi NonText 		   guifg=#808080 guibg=#0f1014 gui=none ctermfg=244 ctermbg=235
 hi LineNr 		   guifg=#303030 guibg=#0f1014 gui=none ctermfg=244 ctermbg=232
