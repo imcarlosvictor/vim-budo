@@ -55,12 +55,13 @@ hi DiffText  guifg=#cecece guibg=#131313 ctermfg=White ctermbg=Black
 
 " Syntax highlighting
 hi Comment 		   guifg=#3f3f3f gui=italic ctermfg=244
-hi Todo 		   guifg=#8f8f8f gui=none ctermfg=245
+" hi Todo 		   guifg=#8f8f8f gui=none ctermfg=245
 hi Boolean         guifg=#ffbb88 gui=none ctermfg=148
 " hi String 		   guifg=#fdfdfe gui=none ctermfg=148
 hi String 		   guifg=#cbdae6 gui=none ctermfg=148
 hi Identifier 	   guifg=#626983 gui=none ctermfg=148
-hi Function 	   guifg=#b4b9c7 gui=none ctermfg=255
+" hi Function 	   guifg=#b4b9c7 gui=none ctermfg=255
+hi Function 	   guifg=#00b1b2 gui=none ctermfg=255
 hi Type 		   guifg=#626983 gui=none ctermfg=103
 hi Type 		   guifg=#626983 gui=none ctermfg=103
 hi Statement 	   guifg=#626983 gui=none ctermfg=103
